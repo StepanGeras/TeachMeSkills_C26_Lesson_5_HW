@@ -23,10 +23,9 @@ public class Task_1 {
     public static void main(String[] args) {
 
         String [][] stringArray = new String[8][8];
-        int count = 0;
 
         for (int i = 0; i < stringArray.length; i++) {
-            for (int j = count; j < stringArray[i].length; j++) {
+            for (int j = 0; j < stringArray[i].length; j++) {
                 if ((i + j) % 2 == 0){
                     stringArray[i][j] = "W";
                 } else {
